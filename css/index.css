@@ -1,0 +1,41 @@
+/* 背景底圖 */
+#home{
+    /* 同一層搜尋：./、回上一層搜尋：../ */
+    background-image: url(../images/p0.jpg);
+}
+#about{
+    background-image: url(../images/p1.jpg);
+}
+#news{
+    background-image: url(../images/p2.jpg);
+}
+#service{
+    background-image: url(../images/p3.jpg);
+}
+#contact{
+    background-image: url(../images/p4.jpg);
+}
+
+/* 背景底圖滿版設定 */
+html,
+body{
+    width: 100%;
+    height: 100%;
+}
+section{
+    height: 100%;
+    /* 背景底圖尺寸：background-size */
+    background-size: cover;
+    /* 背景底圖位置：background-position */
+    background-position: center center;
+}
+
+.txt-bg{
+    background-color: rgba(225, 225, 225, .5);
+    margin-top: 100px;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px;
+    border-radius: 50px;
+}
